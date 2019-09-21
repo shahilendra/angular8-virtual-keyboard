@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-
+import { Component, AfterContentInit } from '@angular/core';
+declare let $: any;
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-demo';
+  color = 1;
+  color1 = 1;
+  color2 = 2;
+  color3 = 3;
 }
